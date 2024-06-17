@@ -18,3 +18,5 @@ from processFluid import process
 def test_process(args, expected):
     print(*args)
     assert process(*args) == expected
+
+#can overrun @pytest.mark.parametrize to create new test variables appropriate for testing new functions
