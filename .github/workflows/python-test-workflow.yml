@@ -2,6 +2,7 @@
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
 
 name: Python application
+run-name: A commit to ${{ inputs.deploy_target }} by @${{ github.actor }}
 
 on:
   push:
@@ -13,8 +14,7 @@ permissions:
   contents: read
 
 jobs:
-  build:
-
+  name-of-job:
     runs-on: ubuntu-latest
 
     steps:
