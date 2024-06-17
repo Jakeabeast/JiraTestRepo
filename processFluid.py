@@ -3,3 +3,6 @@ def process(*parameter):
         print(parameter)
     else:
         print("not enough to process")
+
+def results():
+    print("working")
