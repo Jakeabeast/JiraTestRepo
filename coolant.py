@@ -3,3 +3,6 @@ def cool_down():
 
 def heat_up():
     pass
+
+def maintain():
+    pass

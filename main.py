@@ -6,7 +6,7 @@ processFluid.process("Water", "Plasma", "Blood")
 
 #random coolant feature implementation
 coolant.heat_up()
-coolant.cool_down()
+coolant.cool_downs()
 
 #Additional modification here
 #update
