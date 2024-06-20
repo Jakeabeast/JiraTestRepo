@@ -4,7 +4,7 @@ def process(*parameter):
         return True
     else:
         print("not enough to process")
-        return True #this is a mistake and should not be merged
+        return False #corrected mistake for successful merge
 
 def results():
     print("working")
