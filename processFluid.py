@@ -4,7 +4,7 @@ def process(*parameter):
         return True
     else:
         print("not enough to process")
-        return False
+        return True #this is a mistake and should not be merged
 
 def results():
     print("working")
