@@ -23,6 +23,10 @@ def test_process(args, expected):
 #example shown below
 
 @pytest.mark.parametrize("num1, num2, expected", [
-    (3, 4, 7),
-    (1, 0, 1),
+    (1, 0, 1), #1 + 0 = 1 ***note: 1 - 0 also = 1, good to have multiple tests!
+    (3, 4, 7), #3 + 4 = 7 ***note: 3 - 4 != 7, this picks up an issue with function
 ])
+
+def test_addition(num1, num2, expected):
+    print(num1, num2)
+    assert addition(num1, num2) == expected
