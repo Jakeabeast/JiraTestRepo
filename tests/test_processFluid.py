@@ -5,7 +5,7 @@ import sys
 sys.path.append('./')
 
 #import necessary functions here
-from processFluid import process
+from processFluid import process, addition
 
 #-----------------------------------------------------------
 
@@ -20,3 +20,9 @@ def test_process(args, expected):
     assert process(*args) == expected
 
 #can overrun @pytest.mark.parametrize to create new test variables appropriate for testing new functions
+#example shown below
+
+@pytest.mark.parametrize("num1, num2, expected", [
+    (3, 4, 7),
+    (1, 0, 1),
+])
