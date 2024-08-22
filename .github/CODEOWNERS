@@ -1,0 +1,5 @@
+#default reviewers/codeowners for all code changes
+@user1 @user2
+
+#reviewers for specific folders being merged
+/folder1/folder2 @user1 @user2
