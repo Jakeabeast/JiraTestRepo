@@ -8,8 +8,5 @@ processFluid.process("Water", "Plasma", "Blood")
 coolant.heat_up()
 coolant.cool_downs()
 
-#Additional modification here
-#update
-
 #faulty code with incorrect naming (addressed)
 processFluid.results()
